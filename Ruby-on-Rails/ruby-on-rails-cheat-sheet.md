@@ -1,9 +1,8 @@
 # Ruby on Rails cheat sheet
 
-## The cheat sheet covers some common commands, syntax, and concepts for Rails development
+The cheat sheet covers some common commands, syntax, and concepts for Rails development
 
 - [Ruby on Rails cheat sheet](#ruby-on-rails-cheat-sheet)
-  - [The cheat sheet covers some common commands, syntax, and concepts for Rails development](#the-cheat-sheet-covers-some-common-commands-syntax-and-concepts-for-rails-development)
   - [Rails CLI](#rails-cli)
   - [Rails generators CLI](#rails-generators-cli)
   - [Migration](#migration)
