@@ -2,7 +2,7 @@
 
 ## Table Of Content
 
-- [Git Commands](./git/git-sheat-sheet.md)
+- [Git Commands](./git/git-commands-cheat-sheet.md)
 - [Linux Commands](./linux/linux-commands-cheat-sheet.md)
 
 ## Contributors
