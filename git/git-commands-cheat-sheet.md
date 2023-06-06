@@ -24,7 +24,7 @@
     - [Git revert](#git-revert)
     - [Git reset](#git-reset)
   - [Removing Files](#removing-files)
-    - [Reference](#reference)
+  - [Reference](#reference)
 
 ## Here are some of the most common and useful Git commands
 
@@ -200,6 +200,6 @@ A collection of useful `.gitignore` templates for different languages or framewo
 | `$ git rm file`                          | 🗑️ Delete a file from both your working directory and staging area, staging the deletion for the next commit. |
 | `$ git rm --cached file`                 | 🗑️ Delete a file only from the staging area, but not from the working directory. |
 
-### Reference
+## Reference
 
 - [Git Docs](https://www.git-scm.com/docs/git#_git_commands)
