@@ -1,5 +1,31 @@
 # Git Commands Cheat Sheet
 
+- [Git Commands Cheat Sheet](#git-commands-cheat-sheet)
+  - [Here are some of the most common and useful Git commands](#here-are-some-of-the-most-common-and-useful-git-commands)
+  - [Git Configuration](#git-configuration)
+  - [Create Project](#create-project)
+  - [Local Changes](#local-changes)
+  - [Track Changes](#track-changes)
+  - [Commit History](#commit-history)
+  - [Ignoring files](#ignoring-files)
+  - [Branching](#branching)
+    - [Git branch](#git-branch)
+    - [Git checkout](#git-checkout)
+    - [Git stash](#git-stash)
+  - [Merging](#merging)
+    - [Git merge](#git-merge)
+    - [Git rebase](#git-rebase)
+  - [Remote](#remote)
+  - [Pushing Updates](#pushing-updates)
+  - [Pulling Updates](#pulling-updates)
+    - [Git pull](#git-pull)
+    - [Git fetch](#git-fetch)
+  - [Undo Changes](#undo-changes)
+    - [Git revert](#git-revert)
+    - [Git reset](#git-reset)
+  - [Removing Files](#removing-files)
+    - [Reference](#reference)
+
 ## Here are some of the most common and useful Git commands
 
 ## Git Configuration
