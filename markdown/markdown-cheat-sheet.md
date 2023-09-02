@@ -49,7 +49,7 @@
 
     _Emphasized text_ or *Emphasized text*
 
-**Example:** _Emphasized text_, ==headlight something==
+**Example:** _Emphasized text_
 
 ## Underlining Text
 
@@ -84,7 +84,7 @@
 ## Text colors and fonts
 
     In his beard lived three <span style="color:red">cardinals</span>.
-    I am in <span style="font-family:Papyrus; font-size:2em;">LOVE!</span>
+    I am in <span style="font-family:Papyrus; font-size:4em;">LOVE!</span>
 
 **Example:**
 
@@ -165,18 +165,18 @@
 Example
 
 ```ruby
-    def sum(a,b)
-      a + b
-    end
+def sum(a,b)
+  a + b
+end
 ```
 
 ## Bullet list
 
 ```
-  * Bullet list
-    * Nested bullet
-      * Sub-nested bullet etc
-  * Bullet list item 2
+* Bullet list
+  * Nested bullet
+    * Sub-nested bullet etc
+* Bullet list item 2
 
 -OR-
 
@@ -236,7 +236,7 @@ Example
 ## Blockquote
 
     > Blockquote
-              >> Nested Blockquote
+    >> Nested Blockquote
 
 **Example:**
 
@@ -358,4 +358,4 @@ A footnote can also have multiple lines[^2].
 
 ## Hiding content with comments
 
-　　<!-- This content will not appear in the rendered Markdown -->
+    <!-- This content will not appear in the rendered Markdown -->
