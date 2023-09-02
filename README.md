@@ -6,6 +6,7 @@
 - [Linux Commands](./linux/linux-commands-cheat-sheet.md)
 - [Ruby On Rails](./Ruby-on-Rails/ruby-on-rails-cheat-sheet.md)
 - [ChatGPT](./chatgpt/chatgpt-prompts.md)
+- [Markdown cheat sheet](./markdown/markdown-cheat-sheet.md)
 
 ## Contributors
 
