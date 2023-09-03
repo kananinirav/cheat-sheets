@@ -121,19 +121,19 @@
 
 ### Adding a pipe `|` in a cell
 
+```
 | First Header | Second Header |
 | ------------ | ------------- |
 | Content Cell | Content Cell  |
 | Content Cell | \             |
+```
 
 **Example:**
 
-```
 | First Header | Second Header |
 | ------------ | ------------- |
 | Content Cell | Content Cell  |
 | Content Cell | \             |
-```
 
 ### Left, right and center aligned table
 
@@ -213,7 +213,7 @@ end
 
 ```
 - [ ] An uncompleted task
-  - [x] A completed task
+- [x] A completed task
 ```
 
 **Example:**
