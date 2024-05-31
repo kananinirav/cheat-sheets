@@ -26,6 +26,10 @@
   - [Removing Files](#removing-files)
   - [Reference](#reference)
 
+![Ebook_Cover](../images/git-cover.png)
+
+**[Buy PDF](https://buymeacoffee.com/kananinirav/e/260740)**
+
 ## Here are some of the most common and useful Git commands
 
 ## Git Configuration
@@ -79,9 +83,11 @@
 
 ## Ignoring files
 
-| Command              | Description                                               |
-| -------------------- | --------------------------------------------------------- |
-| `$ touch .gitignore` | 📝 Create a file named `.gitignore` to list ignored files. |
+| Command                                             | Description                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------------ |
+| `$ touch .gitignore`                                | 📝 Create a file named `.gitignore` to list ignored files.          |
+| `$ git update-index --skip-worktree <file_name>`    | 📝 Mark a file as "skip-worktree" to ignore changes in it.          |
+| `$ git update-index --no-skip-worktree <file_name>` | 📝 Unmark a file as "skip-worktree" to stop ignoring changes in it. |
 
 A collection of useful `.gitignore` templates for different languages or frameworks: [gitignore](https://github.com/github/gitignore)
 
@@ -144,61 +150,61 @@ A collection of useful `.gitignore` templates for different languages or framewo
 | `$ git remote show name`           | 🌐 Show information about a specific remote repository called `name`.            |
 | `$ git remote add origin repo-url` | 🌐 Add a remote for the repository.                                              |
 | `$ git remote rm`                  | 🌐 Remove a remote connection from the repository.                               |
-| `$ git remote rename`               | 🌐 Rename a remote server.                                                       |
-| `$ git remote show`                 | 🌐 Show additional information about a particular remote.                        |
-| `$ git remote set-url name url`      | 🌐 Change the URL of a remote repository called name to url.                     |
+| `$ git remote rename`              | 🌐 Rename a remote server.                                                       |
+| `$ git remote show`                | 🌐 Show additional information about a particular remote.                        |
+| `$ git remote set-url name url`    | 🌐 Change the URL of a remote repository called name to url.                     |
 
 ## Pushing Updates
 
-| Command                                  | Description                                             |
-| ---------------------------------------- | ------------------------------------------------------- |
-| `$ git push origin master`               | 📤 Push data to the remote repository.                  |
-| `$ git push --all`                       | 📤 Push all branches to the default remote repository.  |
-| `$ git push --all origin`                | 📤 Specify the remote repository explicitly.            |
-| `$ git push -f`                          | 📤 Force push data to the remote repository.            |
+| Command                    | Description                                           |
+| -------------------------- | ----------------------------------------------------- |
+| `$ git push origin master` | 📤 Push data to the remote repository.                 |
+| `$ git push --all`         | 📤 Push all branches to the default remote repository. |
+| `$ git push --all origin`  | 📤 Specify the remote repository explicitly.           |
+| `$ git push -f`            | 📤 Force push data to the remote repository.           |
 
 ## Pulling Updates
 
 ### Git pull
 
-| Command                                  | Description                                             |
-| ---------------------------------------- | ------------------------------------------------------- |
-| `$ git pull`                             | 📥 Pull changes from the default remote repository and branch. |
-| `$ git pull origin master`               | 📥 Specify the remote repository and branch explicitly.  |
+| Command                    | Description                                                   |
+| -------------------------- | ------------------------------------------------------------- |
+| `$ git pull`               | 📥 Pull changes from the default remote repository and branch. |
+| `$ git pull origin master` | 📥 Specify the remote repository and branch explicitly.        |
 
 ### Git fetch
 
-| Command                                  | Description                                             |
-| ---------------------------------------- | ------------------------------------------------------- |
-| `$ git fetch <repository URL>`           | 📥 Fetch the remote repository.                          |
-| `$ git fetch`                            | 📥 Fetch a specific branch.                              |
-| `$ git fetch --all`                      | 📥 Fetch all branches simultaneously.                   |
-| `$ git fetch origin`                     | 📥 Synchronize the local repository.                     |
+| Command                        | Description                          |
+| ------------------------------ | ------------------------------------ |
+| `$ git fetch <repository URL>` | 📥 Fetch the remote repository.       |
+| `$ git fetch`                  | 📥 Fetch a specific branch.           |
+| `$ git fetch --all`            | 📥 Fetch all branches simultaneously. |
+| `$ git fetch origin`           | 📥 Synchronize the local repository.  |
 
 ## Undo Changes
 
 ### Git revert
 
-| Command                                  | Description                                             |
-| ---------------------------------------- | ------------------------------------------------------- |
-| `$ git revert HEAD`                      | ⏪ Undo the latest commit.                               |
-| `$ git revert hash`                      | ⏪ Create a new commit that undoes changes made by a specific commit identified by its hash. |
-| `$ git revert branch`                    | ⏪ Undo all commits on a branch.                         |
+| Command               | Description                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------- |
+| `$ git revert HEAD`   | ⏪ Undo the latest commit.                                                                   |
+| `$ git revert hash`   | ⏪ Create a new commit that undoes changes made by a specific commit identified by its hash. |
+| `$ git revert branch` | ⏪ Undo all commits on a branch.                                                             |
 
 ### Git reset
 
-| Command                                  | Description                                             |
-| ---------------------------------------- | ------------------------------------------------------- |
-| `$ git reset --soft hash`                | ⏪ Reset your current branch to a specific commit identified by its hash, keeping your working directory and staging area unchanged. |
-| `$ git reset --mixed hash`               | ⏪ Reset your current branch to a specific commit identified by its hash, resetting your staging area to match it, but keeping your working directory unchanged. |
-| `$ git reset --hard hash`                | ⏪ Reset your current branch to a specific commit identified by its hash, resetting your working directory and staging area to match it, discarding any changes made since then. |
+| Command                    | Description                                                                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `$ git reset --soft hash`  | ⏪ Reset your current branch to a specific commit identified by its hash, keeping your working directory and staging area unchanged.                                             |
+| `$ git reset --mixed hash` | ⏪ Reset your current branch to a specific commit identified by its hash, resetting your staging area to match it, but keeping your working directory unchanged.                 |
+| `$ git reset --hard hash`  | ⏪ Reset your current branch to a specific commit identified by its hash, resetting your working directory and staging area to match it, discarding any changes made since then. |
 
 ## Removing Files
 
-| Command                                  | Description                                             |
-| ---------------------------------------- | ------------------------------------------------------- |
-| `$ git rm file`                          | 🗑️ Delete a file from both your working directory and staging area, staging the deletion for the next commit. |
-| `$ git rm --cached file`                 | 🗑️ Delete a file only from the staging area, but not from the working directory. |
+| Command                  | Description                                                                                                  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `$ git rm file`          | 🗑️ Delete a file from both your working directory and staging area, staging the deletion for the next commit. |
+| `$ git rm --cached file` | 🗑️ Delete a file only from the staging area, but not from the working directory.                              |
 
 ## Reference
 
