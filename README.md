@@ -7,6 +7,7 @@
 - [Ruby On Rails](./Ruby-on-Rails/ruby-on-rails-cheat-sheet.md)
 - [ChatGPT Prompts](./chatgpt/chatgpt-prompts.md)
 - [Markdown cheat sheet](./markdown/markdown-cheat-sheet.md)
+- [SQL cheat sheet](./markdown/01-intro-to-dbms-sql.md)
 
 ## Contributors
 
