@@ -28,7 +28,7 @@
 
 ![Ebook_Cover](../images/git-cover.png)
 
-**[Buy PDF](https://buymeacoffee.com/kananinirav/e/260740)**
+**[Buy PDF](https://ko-fi.com/s/b24374f0e6)**
 
 ## Here are some of the most common and useful Git commands
 
